@@ -1,40 +1,54 @@
 <!-- Commentaire -->
 <!DOCTYPE html>
+
 <html>
 	<head>
-			<title> Test </title>
+		<title> Test </title>
+		<meta charset="utf-8"/>
 	</head>
 </html>
 
-<!--<html>
-<!--	<head>
-<!--		<title> Irish Lotto results </title>-->
-<!--		<link rel="stylesheet" type="text/css" href="style.css">-->
-<!--		<meta charset="utf-8"/>-->
-<!--	</head>-->
-<!--	-->
-<!--	<body>-->
-<!---->
-<!--		<h1 class="tracking-in-expand">-->
-<!--			Welcome to the-->
-<!--			<div id="current_date"></p>-->
-<!--				<script>-->
-<!--					date = new Date();-->
-<!--					year = date.getFullYear();-->
-<!--					month = date.getMonth() + 1;-->
-<!--					day = date.getDate();-->
-<!--					document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;-->
-<!--				</script>-->
-<!-- 			Irish Lotto draw results-->
-<!-- 		</h1>-->
-<!--		-->
-<!--		<div class = "field">-->
-<!--			<div class = "blink_me">-->
-<!--				<p> Please enter your numbers: </p>-->
-<!--			</div>-->
-<!--			<input></input>-->
-<!--			<button type="button"> Submit </button>-->
-<!--		</div>-->
-<!---->
-<!--	</body>-->
-<!--</html><!---->
+<!-- <html>
+	<head>
+		<title> Irish Lotto results </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8"/>
+	</head>
+	
+	<body>
+
+		<h1 class="tracking-in-expand">
+			Welcome to the
+			<div id="current_date"></p>
+				<script>
+					date = new Date();
+					year = date.getFullYear();
+					month = date.getMonth() + 1;
+					day = date.getDate();
+					document.getElementById("current_date").innerHTML = day + "/" + month + "/" + year;
+				</script>
+ 			Irish Lotto draw results
+ 		</h1>
+		
+		<div class = "field">
+			<div class = "blink_me">
+				<p> Please enter your numbers: </p>
+			</div>
+			<input id="numbers" type="text"/>
+			<button type="button" onclick="expand()"> Submit </button>
+			<div class="expand">
+		    	<p> Oh, uh, sorry, this is a joke. :) </p>
+			</div>
+		</div>
+
+		<script>
+			function expand() {
+			    var hid = document.getElementsByClassName("expand");
+			    if(hid[0].offsetWidth > 0 && hid[0].offsetHeight > 0) {
+			        hid[0].style.visibility = "visible";
+			    }
+			}
+		</script>
+
+	</body>
+</html> -->
