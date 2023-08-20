@@ -1,8 +1,5 @@
 body{
-	background-image: url("background.webp");
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-  background-position: center;
+	background-color: rgb(187, 207, 184);
 }
 
 h1{
@@ -14,30 +11,12 @@ h1{
 	border: 5px double;
 }
 
-p {
-	font-size: 20px;
-	font-weight: bold;
-	font-style: bold;
-	color: black;
-	font-family: Impact, sans-serif;
-}
-
-.field{
-	text-align: center;
-}
-
-.expand {
-  visibility: hidden;
-}
-
-.blink_me {
-  animation: blinker 2s linear infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+a{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: bold;
+  text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
 .tracking-in-expand {
